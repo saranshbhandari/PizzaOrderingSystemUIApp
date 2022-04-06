@@ -1,0 +1,6 @@
+<div class="card" style="width: 18rem;padding-right: 5em;padding-bottom: 5em;" [style.background-image]='"url(\"" + category.CategoryBackgroundImageUrl + "\")"' (click)="CategoryItemClicked($event)">
+  <div class="card-body">
+    <h1 class="card-title text-primary">{{category.CategoryName}}</h1>
+    <h5 class="card-text text-white">{{category.CategoryDescription}}</h5>
+  </div>
+</div>
